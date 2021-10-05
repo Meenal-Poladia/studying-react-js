@@ -14,9 +14,12 @@ Alternative State Syntax
     2. Then within the constructor we need to use the super and inherit the parameter from the
         actual component class.
     3. And later set the state using the KW "this". We use the dot after this as it is searching
-        for the KW State.
+       for the KW State.
     4. Create the object in the state
     5. Set the Key and the datafile as the value
+
+    By doing this we can bind the state along with the props. This method is usually used when we need to
+    bind the props along with the state.
 
 
 example 1
