@@ -31,4 +31,18 @@ Book mini project
     4. I can reuse the component all throughout my application so if you want to make some changes
        then the changes need to be made only in one place and then all the instances will be
        automatically updated.
+
+example 1
+export default class Book extends Component {
+
+handleClick = () => {
+    console.log(`Clicked me`)
+}
+
+render() {
+    return (
+
+    )
+}
+}
  */
