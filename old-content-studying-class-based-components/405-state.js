@@ -10,18 +10,18 @@ State
 
     Rather than using the property as it is we wrap it inside the state because with state we
     can use special methods, mutate the state, change the state, control the data
-    and that is not going to affect its performance. The state usually contains the key-value pair
+    and that is not going to affect its performance. The state usually contains a key-value pair
     --> example 2
 
-    Above the return KW we can write the simple javascript. In the class based components we
+    Above the return KW we can write simple javascript. In the class based components we
     always use the KW "this" when pointing at any property or method.
-    Array methods which are most frequently use to render this.state are
+    Array methods which are most frequently used to render this.state are
         1. Filter
         2. forEach
         3. Map
         4. Reduce
     Except forEach all other methods create a new array, forEach just loops through the array.
-    Everything above the return is plain only javascript which we will wrap in JSX.
+    Everything above the return is plain javascript which we will wrap in JSX.
 
 
 example 1 -
@@ -40,8 +40,8 @@ export default class Booklist extends Component {
         return(
             <section>
                 <h3>This is my book application <h3/>
-                <Book book={this.books[0]}              Here as it a property which we are accessing in a class we use the
-            <section/>                                  KW "This". We are just rendering object in array position [0]
+                <Book book={this.books[0]}              Here we are just passing 1 item of an array
+            <section/>
         )
 
     }

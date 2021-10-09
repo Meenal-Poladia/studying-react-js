@@ -11,7 +11,7 @@ Book mini project
     Component = User Interface
 
     The benefit of the component is that you can build a bunch of independent, isolated and most
-    importantly, reusable user interfaces that you can then piece it together just like Lego blocks and
+    importantly, reusable user interfaces that you can then place it together just like Lego blocks and
     as a result build even super complex apps without going insane.
 
     While their app can have as many components as you would like, it will always, always have at least
@@ -20,9 +20,9 @@ Book mini project
     The benefits of react:
     1. You can build independent pieces of user interfaces, meaning changing logic or layout
        in one command will not break your whole up.
-    2. Once the component is ready to go. You can reuse it all throughout Europe, but component
+    2. Once the component is ready to go. You can reuse it all throughout the app, but components
        code is still stored in one place. So if you ever need to make some changes, you don't have
-       to run around like a headless chicken, simply locate the component, apply the changes and
+       to run around like a headless mind, simply locate the component, apply the changes and
        all the instances will be automatically updated.
     3. Behind the scenes react is using something called virtual dom, where only the component that
        needs to be updated is effective. So, the speed is also fast which is done without rendering

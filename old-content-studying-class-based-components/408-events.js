@@ -4,13 +4,12 @@ Events
     In class based components we can set events on the elements. When attaching the
     event handler we are not running the function but are referencing to the function.
 
-    The moment this is going to be clicked, then the function is going to run. We do not use the ()
-    after referring the function as the function gets called when the page loads.
+    We do not use the () after referring to the function. The function runs when the reference is called
     As we are using class based component we need to use the KW "this" while referencing
-    to the function on the event handler--> example 1
+    to the function on the event handler --> example 1
 
     When we make a regular function call on an event handler then the this KW refers to the
-    button on which the handler is attached. So, to call the state from inside an regular
+    button element on which the handler is attached. So, to call the state from inside an regular
     function we need to bind the handleClick function with the constructor. --> example 2
 
     However, this binding can also be avoided if we create the handleClick function from
