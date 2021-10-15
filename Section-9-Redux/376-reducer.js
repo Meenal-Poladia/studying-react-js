@@ -21,7 +21,7 @@ const initialStore = {
     count: 0;
 }
 
-//reducer function
+// reducer function
 function reducer (state, action) {
     console.log({state, action})
 }
