@@ -16,6 +16,7 @@
 
 
 // Example 1
+
 //initial store
 const initialStore = {
     count: 0;
