@@ -15,7 +15,7 @@
     old state will be restored
 
 
-example 1
+// Example 1
 //initial store
 const initialStore = {
     count: 0;
