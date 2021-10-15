@@ -1,0 +1,8 @@
+/*
+    Actions as Variables
+
+    A better way of using actions is by setting them up in a variable and then using the
+    variable instead. This helps to avoid typos.
+
+    If there are more than one actions then a separate file can also be set up.
+ */
