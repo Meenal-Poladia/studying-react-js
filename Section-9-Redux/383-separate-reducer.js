@@ -1,0 +1,8 @@
+/*
+    Separate Reducer
+
+    To avoid clogging the file and unwanted functionality being on a single page.
+    It is a good practise to write the reducer function in a separate file.
+
+
+ */
