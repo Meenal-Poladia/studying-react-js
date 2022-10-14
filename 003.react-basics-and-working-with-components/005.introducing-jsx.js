@@ -1,0 +1,13 @@
+/*
+
+    Introducing JSX
+
+    JSX is HTML code inside of javascript. It stands for javascript XML.
+    This only works because there are transformation steps running behind the scenes.
+
+    The NPM start command transforms the react code into JavaScript code which is browser friendly code.
+    We can see the transformed code using developers console by going to the source session. Towards the left
+    we can see the files systems as in our project. The javascript files contains the code in a cryptic manner as that
+    is the code transformed for the browser to understand.
+
+ */
