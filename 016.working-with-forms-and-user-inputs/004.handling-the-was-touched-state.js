@@ -1,0 +1,11 @@
+/*
+
+    React to lost focus
+
+    When the user clicks inside the input but does not type anything and later clicks outside we need to tell user
+    that user had to do something but the user did not. This is the blur state for which we have onBlur attribute
+    where we can pass a function. This event is fired when the input loses focus.
+
+    In the blurHandler we can set the setTouched state to true and also start validation here.
+
+ */
