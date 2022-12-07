@@ -1,0 +1,12 @@
+/*
+
+    Adding a custom input hook
+
+    When we have many inputs in the form and similar logic is being repeated for each input then we can create a custom
+    hook in which we add the logic for managing the states and logic.
+
+    We can pass function as well to our custom hook parameter. If we want to call a certain function in the custom hook
+    from the other component then we can return it from the custom hook so that it can be used in the component.
+    These returned function value can be called inside the handlers.
+
+ */
