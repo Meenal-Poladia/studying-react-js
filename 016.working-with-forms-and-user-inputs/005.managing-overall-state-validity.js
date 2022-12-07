@@ -1,0 +1,14 @@
+/*
+
+    Managing the overall state validity
+
+    The overall validity of the form depends on whether all its inputs are valid or invalid.
+
+    For setting the validity of the entire form we can use an useEffect wherein we check if each input is valid based
+    on state value and in the dependency array add the state of the input so that the useEffect is rendered whenever
+    the state changes or any of the input changes.
+
+    It is also important to enable or disable the button on the state of the overall form. It is a good practise to
+    disable it when the form is invalid.
+
+ */
