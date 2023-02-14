@@ -1,0 +1,8 @@
+/*
+
+    React To Lost Focus
+
+    When the input field is clicked by the user and when it looses focus then if we want to throw an error
+    for the user to have not edited the input then we use the onBlur attribute which is provided by react.
+
+ */

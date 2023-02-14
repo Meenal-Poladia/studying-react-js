@@ -1,0 +1,9 @@
+/*
+
+    Validating user input and outputting validation errors
+
+    We can use the useActionData hook to get data from the action property from the Form element. The data will be
+    received only if there is something which is returned from the action. If there is just redirection then we do not
+    get anything in the action.
+
+ */
