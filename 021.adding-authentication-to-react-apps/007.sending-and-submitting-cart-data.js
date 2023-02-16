@@ -1,0 +1,8 @@
+/*
+
+    Sending and submitting cart data
+
+    It is a good practise to have the validations for the form inputs not just on the client but also on the server
+    as a user has access to the DOM through console and so can manipulate anything using the DOM.
+
+ */

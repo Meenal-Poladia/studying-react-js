@@ -17,21 +17,19 @@
     Section 14
     Section 15
     Section 16
+    Section 17
     Section 18
     Section 19
-    Section 20
     Section 21
     Section 23
     Section 24
     Section 25
-
-
-
-    Incomplete:
-    Section 17
-    Section 22
     Section 26
     Section 27
+
+    Incomplete:
+    Section 20
+    Section 22
     Section 28
     Section 29
     Section 30
