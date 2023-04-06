@@ -1,0 +1,8 @@
+/*
+
+    Using data from a loader in the route component
+
+    To access the data from the loader function we use the hook useLoaderData. This hook can be useful to access the
+    closest loader data.
+
+ */
