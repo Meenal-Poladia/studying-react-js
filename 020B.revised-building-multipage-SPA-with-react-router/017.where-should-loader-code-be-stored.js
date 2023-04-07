@@ -1,0 +1,7 @@
+/*
+
+    When are loader functions executed
+
+    The loader property is executed not after the component is loaded but before we go there.
+
+ */
