@@ -1,0 +1,12 @@
+/*
+
+    Adding a layout wrapper component
+
+    To design the webpage in a particular structure it is advisable to create a layout component which handles the
+    main components in which we want to render the page in a particular way. The layout component can be wrapped around
+    the route component in the App.js.
+
+    We use the layout component as a wrapper around the route so that whatever route is chosen is rendered around the
+    layout component. We can create wrapper component using props or props.children.
+
+*/
