@@ -5,6 +5,7 @@
     Jordan Walke, a software engineer who was working for Facebook created React.
     It was first deployed on the news feed of Facebook in 2011 and on Instagram in 2012.
     Developers from the Javascript background can easily develop web applications with the help of React.
+    React hooks were introduced in 2018.
 
     1. Advantages of react:
         1. Use of Virtual DOM to improve efficiency
@@ -18,6 +19,10 @@
         2. The components of React are numerous and will take time to fully grasp the benefits of all.
         3. It might be difficult for beginner programmers to understand React.
         4. Coding might become complex as it will make use of inline templating and JSX.
+        5 Requires additional tools: ReactJS requires additional tools like Webpack, Babel, and others to create a
+        complete development environment. While these tools are powerful, they can be complex to set up and use.
+        6. Limited functionality: ReactJS is primarily a user interface library and does not provide many of the
+        features you would expect from a full-stack framework, such as routing and state management.
 
     3. What are keys in React?
     A key is a special string attribute that needs to be included when using lists of elements.
@@ -118,6 +123,12 @@
         clean up any resources or subscriptions created by the effect.
         The cleanup function is returned by the effect callback function.
 
+        Example: Let’s look at this scenario: imagine we get a fetch of a particular user through a user’s id, and,
+        before the fetch completes, we change our mind and try to get another user. At this point, the prop, or in
+        this case, the id, updates while the previous fetch request is still in progress.
+        It is then necessary for us to abort the fetch using the cleanup function so we don’t expose our application
+        to a memory leak.
+
     11. What is prop drilling in React?
     Prop drilling means passing props from the grandparent to parents to child. Each component in the hierarchy receives
     the props where or not in use to that it reaches to their children.
@@ -168,16 +179,25 @@
     The disadvantage of Custom Hooks is it cannot be used inside of the classes.
 
     16. Explain Strict Mode in React.
-    StrictMode is a tool added in version 16.3 of React to highlight potential problems in an application.
-    It performs additional checks on the application.
-    To enable StrictMode, <React.StrictMode> tags need to be added inside the application.
+    In React, the strict mode is a development mode feature that helps developers write better code by highlighting
+    potential problems and warning about unsafe coding practices. When enabled, strict mode introduces additional
+    checks and warnings in the developer console that might be missed in normal development mode.
 
-    StrictMode currently helps with the following issues:
-        1. Warning about the usage of legacy string API
-        2. warning about use of any deprecated react API example findDOMNode()
-        3. Identifying components with unsafe lifecycle methods - Certain lifecycle methods are unsafe to use in
-        asynchronous react applications. With the use of third-party libraries, it becomes difficult to ensure that
-        certain lifecycle methods are not used.
+    Here are some of the benefits of using strict mode in React:
+
+    1. Highlighting potential problems: Strict mode will warn you about certain coding practices that might be
+    problematic, such as accessing deprecated APIs, using unsafe lifecycle methods, and performing state updates in
+    the wrong order. This can help you catch issues early and avoid bugs in production.
+
+    2. Enabling stricter error handling: In strict mode, React will throw additional warnings and errors for common
+    mistakes like missing key props, invalid elements, or function components returning multiple elements. This can
+    help you find and fix errors faster and avoid unexpected behavior.
+
+    3. Helping you find performance issues: Strict mode can also help you identify potential performance issues in
+    your code, such as excessive renders, unnecessary component updates, or slow re-renders. This can help you optimize
+    your code and make your application faster and more responsive.
+
+    To enable strict mode in your React application, you can wrap your app component with the React.StrictMode component
 
     17. What are the different ways to style a React component?
         1. Inline Styling: We can directly style an element using inline style attributes.
@@ -302,7 +322,7 @@
             6. useRef() : It will permit creating a reference to the DOM element directly within the functional component.
             7. useLayoutEffect(): It is used for the reading layout from the DOM and re-rendering synchronously.
 
-    2. Custom Hooks: A custom Hook is basically a function of JavaScript. The Custom Hook working is similar to a regular
+    2.Custom Hooks: A custom Hook is basically a function of JavaScript. The Custom Hook working is similar to a regular
     function. The “use” at the beginning of the Custom Hook Name is required for React to understand that this is a custom
     Hook and also it will describe that this specific function follows the rules of Hooks. Moreover, developing custom
     Hooks will enable you for extracting component logic from within reusable functions
@@ -383,7 +403,6 @@
     used for the object representation of UI. Whereas cloneElement is used to clone an element and pass it new props.
 
 
-
     Ref forwarding is a technique for automatically passing a ref through a component to one of its children.
     This is typically not necessary for most components in the application.
     However, it can be useful for some kinds of components, especially in reusable component libraries.
@@ -398,5 +417,10 @@
     // You can now get a ref directly to the DOM button:
     const ref = React.createRef();
     <FancyButton ref={ref}>Click me!</FancyButton>;
+
+    34. What are React hooks?
+    React hooks are special functions that can only be used in functional components and custom hooks. They all start
+    with use KW. These functions add extra functionalities to the functional component. For eg: useState adds internal
+    state to the component.
 
  */

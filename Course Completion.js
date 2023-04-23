@@ -20,7 +20,9 @@
     Section 17
     Section 18
     Section 19
+    Section 20
     Section 21
+    Section 22
     Section 23
     Section 24
     Section 25
@@ -28,8 +30,6 @@
     Section 27
 
     Incomplete:
-    Section 20
-    Section 22
     Section 28
     Section 29
     Section 30
